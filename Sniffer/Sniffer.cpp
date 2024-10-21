@@ -1,6 +1,6 @@
-#include <pcap.h>
-#include <stdio.h>
-#include <stdlib.h>
+#include <pcap>
+#include <stdio>
+#include <stdlib>
 
 void got_packet(u_char* args, const struct pcap_pkthdr* header, const u_char* packet) {
     printf("Got a packet\n");
